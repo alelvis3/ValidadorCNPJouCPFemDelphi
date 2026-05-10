@@ -14,8 +14,8 @@ object FormValidador: TFormValidador
   object TlblStatus: TLabel
     Left = 8
     Top = 144
-    Width = 204
-    Height = 25
+    Width = 32
+    Height = 15
     Alignment = taCenter
     BiDiMode = bdLeftToRight
     Caption = 'Status'
@@ -25,8 +25,8 @@ object FormValidador: TFormValidador
   object TLblUfCPF: TLabel
     Left = 8
     Top = 248
-    Width = 204
-    Height = 25
+    Width = 3
+    Height = 15
     Alignment = taCenter
     Layout = tlCenter
   end
@@ -34,7 +34,7 @@ object FormValidador: TFormValidador
     Left = 8
     Top = 48
     Width = 204
-    Height = 25
+    Height = 23
     EditLabel.Width = 102
     EditLabel.Height = 15
     EditLabel.Caption = 'Digite CPF ou CNPJ'
@@ -48,6 +48,7 @@ object FormValidador: TFormValidador
     Height = 25
     Caption = 'Validar'
     TabOrder = 1
+    OnClick = TBtnValidarClick
   end
   object TEditNumeroFormatado: TEdit
     Left = 8
