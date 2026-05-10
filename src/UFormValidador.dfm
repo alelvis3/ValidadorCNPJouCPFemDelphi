@@ -40,6 +40,7 @@ object FormValidador: TFormValidador
     EditLabel.Caption = 'Digite CPF ou CNPJ'
     TabOrder = 0
     Text = ''
+    OnKeyUp = TtxtPjPfKeyUp
   end
   object TBtnValidar: TButton
     Left = 72
